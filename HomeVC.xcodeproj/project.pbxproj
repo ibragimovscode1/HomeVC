@@ -7,20 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		523183F1288FA14300B57A0C /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523183F0288FA14300B57A0C /* HomeVC.swift */; };
+		523183F3288FA1C900B57A0C /* TransferVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523183F2288FA1C900B57A0C /* TransferVC.swift */; };
+		523183F5288FA26100B57A0C /* PaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523183F4288FA26100B57A0C /* PaymentVC.swift */; };
+		523183F7288FA2A600B57A0C /* MarketVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523183F6288FA2A600B57A0C /* MarketVC.swift */; };
+		523183F9288FA2F100B57A0C /* MyKarmonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523183F8288FA2F100B57A0C /* MyKarmonVC.swift */; };
+		523183FF288FA88600B57A0C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523183FE288FA88600B57A0C /* Utilities.swift */; };
+		52318401288FF47500B57A0C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52318400288FF47500B57A0C /* Extensions.swift */; };
 		52518FC7288F1A4E00365DBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52518FC6288F1A4E00365DBD /* AppDelegate.swift */; };
 		52518FC9288F1A4E00365DBD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52518FC8288F1A4E00365DBD /* SceneDelegate.swift */; };
-		52518FCB288F1A4E00365DBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52518FCA288F1A4E00365DBD /* ViewController.swift */; };
-		52518FCE288F1A4E00365DBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52518FCC288F1A4E00365DBD /* Main.storyboard */; };
+		52518FCB288F1A4E00365DBD /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52518FCA288F1A4E00365DBD /* TabBarController.swift */; };
 		52518FD0288F1A5100365DBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52518FCF288F1A5100365DBD /* Assets.xcassets */; };
 		52518FD3288F1A5100365DBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52518FD1288F1A5100365DBD /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		523183F0288FA14300B57A0C /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		523183F2288FA1C900B57A0C /* TransferVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferVC.swift; sourceTree = "<group>"; };
+		523183F4288FA26100B57A0C /* PaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentVC.swift; sourceTree = "<group>"; };
+		523183F6288FA2A600B57A0C /* MarketVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketVC.swift; sourceTree = "<group>"; };
+		523183F8288FA2F100B57A0C /* MyKarmonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKarmonVC.swift; sourceTree = "<group>"; };
+		523183FE288FA88600B57A0C /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		52318400288FF47500B57A0C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		52518FC3288F1A4E00365DBD /* HomeVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52518FC6288F1A4E00365DBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52518FC8288F1A4E00365DBD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		52518FCA288F1A4E00365DBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		52518FCD288F1A4E00365DBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52518FCA288F1A4E00365DBD /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		52518FCF288F1A5100365DBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52518FD2288F1A5100365DBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52518FD4288F1A5100365DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,10 +49,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		523183EF288FA10000B57A0C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				52518FCA288F1A4E00365DBD /* TabBarController.swift */,
+				523183F0288FA14300B57A0C /* HomeVC.swift */,
+				523183F2288FA1C900B57A0C /* TransferVC.swift */,
+				523183F4288FA26100B57A0C /* PaymentVC.swift */,
+				523183F6288FA2A600B57A0C /* MarketVC.swift */,
+				523183F8288FA2F100B57A0C /* MyKarmonVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		523183FC288FA80600B57A0C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				523183FE288FA88600B57A0C /* Utilities.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		523183FD288FA81C00B57A0C /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				52518FC6288F1A4E00365DBD /* AppDelegate.swift */,
+				52518FC8288F1A4E00365DBD /* SceneDelegate.swift */,
+				52518FCF288F1A5100365DBD /* Assets.xcassets */,
+				52518FD1288F1A5100365DBD /* LaunchScreen.storyboard */,
+				52518FD4288F1A5100365DBD /* Info.plist */,
+				52318400288FF47500B57A0C /* Extensions.swift */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
 		52518FBA288F1A4E00365DBD = {
 			isa = PBXGroup;
 			children = (
-				52518FC5288F1A4E00365DBD /* HomeVC */,
+				523183FD288FA81C00B57A0C /* Files */,
+				52518FC5288F1A4E00365DBD /* MainView */,
+				523183FC288FA80600B57A0C /* Utils */,
 				52518FC4288F1A4E00365DBD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,18 +101,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		52518FC5288F1A4E00365DBD /* HomeVC */ = {
+		52518FC5288F1A4E00365DBD /* MainView */ = {
 			isa = PBXGroup;
 			children = (
-				52518FC6288F1A4E00365DBD /* AppDelegate.swift */,
-				52518FC8288F1A4E00365DBD /* SceneDelegate.swift */,
-				52518FCA288F1A4E00365DBD /* ViewController.swift */,
-				52518FCC288F1A4E00365DBD /* Main.storyboard */,
-				52518FCF288F1A5100365DBD /* Assets.xcassets */,
-				52518FD1288F1A5100365DBD /* LaunchScreen.storyboard */,
-				52518FD4288F1A5100365DBD /* Info.plist */,
+				523183EF288FA10000B57A0C /* Controllers */,
 			);
-			path = HomeVC;
+			path = MainView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +169,6 @@
 			files = (
 				52518FD3288F1A5100365DBD /* LaunchScreen.storyboard in Resources */,
 				52518FD0288F1A5100365DBD /* Assets.xcassets in Resources */,
-				52518FCE288F1A4E00365DBD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +179,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52518FCB288F1A4E00365DBD /* ViewController.swift in Sources */,
+				52518FCB288F1A4E00365DBD /* TabBarController.swift in Sources */,
+				523183F5288FA26100B57A0C /* PaymentVC.swift in Sources */,
+				523183F9288FA2F100B57A0C /* MyKarmonVC.swift in Sources */,
+				523183F1288FA14300B57A0C /* HomeVC.swift in Sources */,
 				52518FC7288F1A4E00365DBD /* AppDelegate.swift in Sources */,
+				52318401288FF47500B57A0C /* Extensions.swift in Sources */,
 				52518FC9288F1A4E00365DBD /* SceneDelegate.swift in Sources */,
+				523183FF288FA88600B57A0C /* Utilities.swift in Sources */,
+				523183F3288FA1C900B57A0C /* TransferVC.swift in Sources */,
+				523183F7288FA2A600B57A0C /* MarketVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		52518FCC288F1A4E00365DBD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				52518FCD288F1A4E00365DBD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		52518FD1288F1A5100365DBD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +334,6 @@
 				INFOPLIST_FILE = HomeVC/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +361,6 @@
 				INFOPLIST_FILE = HomeVC/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
